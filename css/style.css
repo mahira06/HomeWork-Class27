@@ -1,0 +1,84 @@
+/* Common CSS start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Common CSS end */
+
+/* top bar section start */
+#top-bar{
+    background-color: var(--primary-color);
+    color: #fefefe;
+    padding: 19px 0;
+    font-family: var(--primary-font);
+}
+/* top bar section end */
+
+ /* Nav Bar section start */
+#menu-bar #menu ul li a{
+    padding: 32px 19px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #222222;
+}
+.navbar {
+    padding: 0;
+}
+#menu-bar #menu ul li a:hover,
+#menu-bar #menu ul li button:hover{
+    color: #ffc712;    
+    background-color: #fff9e6;
+    transition: 0.5s;
+}
+#menu-bar #menu ul li button{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin: 0 10px;
+    background-color: #111;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #a6a6a6;
+}
+#menu-bar #menu ul li .nav-src{
+    width: 80px;
+}
+ /* Nav Bar section end */
+
+/* aside CSS Start */
+aside{
+    width: 200px;
+    height: 100vh;
+    background-color: #111;
+    transition: 0.5s;
+}
+aside ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 25px 0;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3a1b2f;
+    transition: .5s;
+}
+
+aside ul li a:hover{
+    background-color: #222222;
+}
+aside.hide-show{
+    margin-left: -115vh;
+}
+/* aside CSS End */
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Bar using JS</title>
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font awesomw link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+             <!-- Nav Bar section start -->
+             <nav id="menu-bar" class="navbar navbar-expand-lg">
+                    <a href="#" class="navbar-brand">
+                        <img src="./img/Bizzency.logo.png" alt="" style="padding-left: 20px;">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="menu" class="collapse navbar-collapse col-sm-6">
+                        <ul class="navbar-nav ms-auto align-items-center">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Servies</a></li>
+                            <li><a href="">Portfolio </a></li>
+                            <li><a href="">Blogs</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li>
+                                <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success nav-src" type="submit">Search</button>
+                              </form>
+                            </li>
+                            <li><button><i class="fa-solid fa-xmark"></i></button></li> 
+                            <li><button id="aside-btn"><i class="fa-solid fa-bars"></i></button></li>  
+                        </ul>
+                    </div>     
+             </nav>
+             <!-- Nav Bar section end -->     
+        
+    </header>
+    <!-- Header Section End -->
+
+    <!-- side bar html start -->
+    
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- side bar html end -->
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
